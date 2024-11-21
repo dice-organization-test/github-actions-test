@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Hello, GitHub Actions!"
+echo "Hello, GitHub Actions! Update success!"
