@@ -13,5 +13,8 @@ jobs:
       - name: Check out the code
         uses: actions/checkout@v3
 
+      - name: Grant execute permission for hello.sh
+        run: chmod +x ./hello.sh
+
       - name: Run hello script
         run: ./hello.sh
