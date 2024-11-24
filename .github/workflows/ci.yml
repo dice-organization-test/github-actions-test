@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - actions-test
 
 jobs:
   test:
@@ -15,6 +16,9 @@ jobs:
 
       - name: Grant execute permission for hello.sh
         run: chmod +x ./hello.sh
+
+      - name: Run hello script
+        run: ./hello.sh
 
       - name: Run hello script
         run: ./hello.sh
