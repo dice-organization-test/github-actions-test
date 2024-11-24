@@ -21,6 +21,3 @@ jobs:
 
       - name: Run hello script
         run: ./hello.sh
-
-      - name: Run hello script
-        run: ./hello.sh
